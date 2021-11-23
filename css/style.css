@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFE1B2;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: brown;
+}
+header{
+    width: 100%;
+    position: sticky;
+    background-color: #F5F0FF;
+}
+.logo__index{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+nav ul{
+display: flex;
+justify-content: space-evenly;
+}
+nav ul li{
+    display: inline;
+}
