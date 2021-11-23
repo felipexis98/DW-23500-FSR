@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serranosfit Panes, postres y más </title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/Iconos/favicon.ico">
     </head>
 <body>
-    <header>
-        <nav>
-            <img src="./assets/Iconos/Serranosfitlogo.png" alt="Logo pagina" class="logo__index">
+    <header class="nav__sticky">
+        <nav class="top__nav">
             <ul>
                 <li>
-                    <a href="./index.html">Inicio</a>
+                    <a href="./index.html" class="active">Inicio</a>
                 </li>
                 <li>
                     <a href="./pages/tienda.html">Tienda</a>
@@ -33,27 +33,42 @@
             </ul>
         </nav>
         </header>
-    <main>
-        <section class="">
-            <h2>Nuestros favoritos</h2>
-            <img src="./assets/images/Torta_zanahoria_grande1.jpg" alt="" width="300px">
-            <div>Torta de zanahoria</div>
-            <img src="./assets/images/Torta_de_ chocolate1.jpg" alt="" width="300">
-            <div>Torta de chocolate</div>
-            <img src="./assets/images/Torta_de_banano1.jpg" alt="" width="300">
-            <div>Torta de banano con chips</div>
-        </section>
+    <main>     
+        <div class="row1"><img src="./assets/Iconos/Serranosfitlogo.png" alt="Logo pagina" class="nuestros_favoritos logo__inicio">
+            <div class="nuestros_favoritos slider"></div>
+        </div>
 
+        
+        <h2 class="row2__title">Nuestros favoritos</h2>
+        <div class="row2">
+            <div class="img__container">
+            <img src="./assets/images/Torta_zanahoria_grande1.jpg" alt="" class="img__even--size">
+            <div class="img__name">Torta de zanahoria</div>
+            </div>
+
+            <div class="img__container">
+            <img src="./assets/images/Torta_de_ chocolate1.jpg" alt="" class="img__even--size">
+            <div class="img__name">Torta de chocolate</div>
+            </div>
+
+            <div class="img__container">
+            <img src="./assets/images/Torta_de_banano1.jpg" alt="" class="img__even--size">
+            <div class="img__name">Torta de banano con chips</div>
+            </div>
+        </div>
+        <div class="separator"></div>
     </main>
     <footer id="footer">
+        <div class="footer__img">
         <img src="./assets/Iconos/whatsapp.png" alt="Logo whatsapp">
-        <p>+57 3022541648</p>
-        <a href="https://www.instagram.com/serranos_fit/"><img src="./assets/Iconos/instagram.png" alt="Logo instagram" target="_blank"></a>
-        <p>serranos_fit</p>
+        <div>+57 3022541648</div>
+        </div>
+
+        <div class="footer__img"> 
+        <a href="https://www.instagram.com/serranos_fit/" target="_blank"><img src="./assets/Iconos/instagram.png" alt="Logo instagram" ></a>
+        <div>serranos_fit</div>
+        </div>
+
     </footer>
-    <main class="shape">
-        <div class="cubo">Hola</div>
-        <div class="cubo"></div>
-    </main>
 </body>
 </html>
