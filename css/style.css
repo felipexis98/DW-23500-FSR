@@ -1,3 +1,4 @@
+/*font, background color and margins*/
 body{
     height: 100%;
     font-family: 'Poppins', sans-serif;
@@ -5,6 +6,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/*Position sticky to nav*/
 .nav__sticky{
     position: sticky;
     top: 0;
@@ -12,28 +14,26 @@ body{
     height:100px  ;
     border: black;
 }
+/*Resizing logo*/
 .logo__index{
     position: relative;
     width: 80px;
     height: 80px;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
+/*font size and inline of header lists*/
 nav ul li{
     font-size: 30px;
     display: inline;
 }
+/*No style to lists, header color*/
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #B495F5;
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 
@@ -52,7 +52,7 @@ li a {
 li a:hover {
     background-color: rgb(20, 16, 16);
 }
-.active {
+.active__page {
     background-color: #000000;
 }
 .row1{
@@ -123,11 +123,3 @@ footer div{
 .row2__title{
     margin-left: 30px;
 }
-/* .separator{
-    display: ;
-    margin-top: 20px;
-    position: relative;
-    height: 200px;
-    background-color: #FFE1B2; 
-
-} */
