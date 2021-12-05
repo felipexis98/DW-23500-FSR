@@ -9,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/Iconos/favicon.ico">
     </head>
 <body>
+    <div class="grid_container">
     <header class="nav__sticky">
         <nav class="top__nav">
             <ul>
@@ -34,29 +35,28 @@
         </nav>
         </header>
     <main>     
-        <div class="row1"><img src="./assets/Iconos/Serranosfitlogo.png" alt="Logo pagina" class="nuestros_favoritos logo__inicio">
-            <div class="nuestros_favoritos slider"></div>
+        <div id="grid_index_main">
+                <img src="./assets/Iconos/Serranosfitlogo.png" alt="Logo pagina" class="index_logo">
+                <div class="slider"></div>
+
+                <h2 class="index_subtitle">Nuestros favoritos</h2>
+
+                <div class="img__container" id="product1">
+                <img src="./assets/images/Torta_zanahoria_grande1.jpg" alt="" class="img__even--size">
+                <div class="img__name">Torta de zanahoria</div>
+                </div>
+
+                <div class="img__container" id="product2">
+                <img src="./assets/images/Torta_de_ chocolate1.jpg" alt="" class="img__even--size">
+                <div class="img__name">Torta de chocolate</div>
+                </div>
+
+                <div class="img__container" id="product3">
+                <img src="./assets/images/Torta_de_banano1.jpg" alt="" class="img__even--size">
+                <div class="img__name">Torta de banano con chips</div>
+                </div>
+                <!-- <div class="separator"></div> -->
         </div>
-
-        
-        <h2 class="title__margin__left">Nuestros favoritos</h2>
-        <div class="row2">
-            <div class="img__container">
-            <img src="./assets/images/Torta_zanahoria_grande1.jpg" alt="" class="img__even--size">
-            <div class="img__name">Torta de zanahoria</div>
-            </div>
-
-            <div class="img__container">
-            <img src="./assets/images/Torta_de_ chocolate1.jpg" alt="" class="img__even--size">
-            <div class="img__name">Torta de chocolate</div>
-            </div>
-
-            <div class="img__container">
-            <img src="./assets/images/Torta_de_banano1.jpg" alt="" class="img__even--size">
-            <div class="img__name">Torta de banano con chips</div>
-            </div>
-        </div>
-        <div class="separator"></div>
     </main>
     <footer id="footer">
         <div class="footer__img">
@@ -69,5 +69,6 @@
         <div>serranos_fit</div>
         </div>
     </footer>
+</div>
 </body>
 </html>
